@@ -19,7 +19,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="unholy" revision="n7" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" revision="n7" />
   <project path="vendor/unholy" name="vendor_unholy" remote="unholy" revision="n7" />
-  <project path="vendor/huawei/angler" name="vendor_huawei_angler" remote="unholy" revision="n7" />
+  <project path="vendor/huawei/angler" name="vendor_huawei" remote="unholy" revision="n7" />
 
   <!-- Unholy Device(s) -->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="unholy" revsion="n7" />
