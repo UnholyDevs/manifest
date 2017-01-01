@@ -29,11 +29,11 @@
   <project path="vendor/unholy" name="vendor_unholy" remote="unholy" revision="n7" />
 
   <!-- Unholy Device(s) -->
-  <project path="device/google/marlin" name="device_google_marlin" remote="unholy" revsion="n7" />
+  <project path="device/google/marlin" name="device_google_marlin" remote="unholy" revision="n7" />
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="unholy" revision="n7" />
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="unholy" revsion="n7" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="unholy" revision="n7" />
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="unholy" revision="n7" />
-  <project path="device/motorola/shamu" name="device_motorola_shamu" remote="unholy" revsion="n7" />
+  <project path="device/motorola/shamu" name="device_motorola_shamu" remote="unholy" revision="n7" />
   <project path="kernel/motorola/shamu" name="kernel_motorola_shamu" remote="unholy" revision="n7" />
 
 
