@@ -13,7 +13,7 @@
 
   <!-- Unholy Repos -->
   <project path="art" name="art" remote="unholy" revision="n7" />
-  <project path="bionic" name="bionic" remote="unholy" revision="n7" /> 
+  <project path="bionic" name="bionic" remote="unholy" revision="n7" />
   <project path="build" name="build" remote="unholy" revision="n7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -23,9 +23,9 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" revision="n7" />
   <project path="system/core" name="system_core" remote="unholy" revision="n7" />
   <project path="system/sepolicy" name="system_sepolicy" remote="unholy" revision="n7" />
-  <project path="vendor/google/marlin" name="vendor_google" remote="unholy" revision="n7" />
-  <project path="vendor/huawei/angler" name="vendor_huawei" remote="unholy" revision="n7" />
-  <project path="vendor/motorola/shamu" name="vendor_motorola" remote="unholy" revision="n7" />
+  <project path="vendor/google" name="vendor_google" remote="unholy" revision="n7" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="unholy" revision="n7" />
+  <project path="vendor/motorola" name="vendor_motorola" remote="unholy" revision="n7" />
   <project path="vendor/unholy" name="vendor_unholy" remote="unholy" revision="n7" />
 
   <!-- Unholy Device(s) -->
