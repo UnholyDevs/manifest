@@ -24,7 +24,9 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" revision="n7" />
   <project path="system/core" name="system_core" remote="unholy" revision="n7" />
   <project path="system/sepolicy" name="system_sepolicy" remote="unholy" revision="n7" />
-  <project path="vendor/unholy" name="vendor_unholy" remote="unholy" revision="n7" />
+  <project path="vendor/unholy" name="vendor_unholy" remote="unholy" revision="n7" >
+      <linkfile src="builder.sh" dest="builder.sh" />
+  </project>
 
   <!-- AOSP Repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
