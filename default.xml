@@ -36,7 +36,7 @@
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="unholy" revision="n7" />
   <project path="kernel/motorola/shamu" name="kernel_motorola_shamu" remote="unholy" revision="n7" />  
   <project path="vendor/huawei" name="vendor_huawei" remote="unholy" revision="n7" />
-  <project path="vendor/google" name="vendor_google" remote="unholy" revision="n7" /> 
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="unholy" revision="n7" /> 
   <project path="vendor/motorola" name="vendor_motorola" remote="unholy" revision="n7" />
 
   <!-- AOSP Repos -->
