@@ -15,6 +15,7 @@
   <!-- Unholy Repos -->
   <project path="art" name="art" remote="unholy" />
   <project path="bionic" name="bionic" remote="unholy" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="unholy" />
   <project path="build" name="build" remote="unholy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -37,7 +38,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
