@@ -5,39 +5,29 @@
   <remote  name="github"
            fetch="https://github.com/" />
   <remote  name="unholy"
-           fetch="https://github.com/UnholyDevs" />
+           fetch="https://github.com/UnholyDevs"
+           revision="n7" />
   <default revision="refs/tags/android-7.1.1_r12"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
 
   <!-- Unholy Repos -->
-  <project path="art" name="art" remote="unholy" revision="n7" />
-  <project path="bionic" name="bionic" remote="unholy" revision="n7" />
-  <project path="build" name="build" remote="unholy" revision="n7" >
+  <project path="art" name="art" remote="unholy" />
+  <project path="bionic" name="bionic" remote="unholy" />
+  <project path="build" name="build" remote="unholy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/av" name="frameworks_av" remote="unholy" revision="n7" />
-  <project path="frameworks/base" name="frameworks_base" remote="unholy" revision="n7" />
-  <project path="frameworks/native" name="frameworks_native" remote="unholy" revision="n7" />
-  <project path="manifest" name="manifest" remote="unholy" revision="n7" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" revision="n7" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="unholy" revision="n7" />
-  <project path="system/core" name="system_core" remote="unholy" revision="n7" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="unholy" revision="n7" />
-  <project path="vendor/prebuilt" name="vendor_prebuilt" remote="unholy" revision="n7" />
-  <project path="vendor/unholy" name="vendor_unholy" remote="unholy" revision="n7" />
-
-  <!-- Unholy Devices -->
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="unholy" revision="n7" />
-  <project path="device/google/marlin" name="device_google_marlin" remote="unholy" revision="n7" />
-  <project path="device/motorola/shamu" name="device_motorola_shamu" remote="unholy" revision="n7" />
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="unholy" revision="n7" />
-  <project path="kernel/google/marlin" name="kernel_google_marlin" remote="unholy" revision="n7" />
-  <project path="kernel/motorola/shamu" name="kernel_motorola_shamu" remote="unholy" revision="n7" />  
-  <project path="vendor/huawei" name="vendor_huawei" remote="unholy" revision="n7" />
-  <project path="vendor/google_devices" name="vendor_google_devices" remote="unholy" revision="n7" /> 
-  <project path="vendor/motorola" name="vendor_motorola" remote="unholy" revision="n7" />
+  <project path="frameworks/av" name="frameworks_av" remote="unholy" />
+  <project path="frameworks/base" name="frameworks_base" remote="unholy" />
+  <project path="frameworks/native" name="frameworks_native" remote="unholy" />
+  <project path="manifest" name="manifest" remote="unholy" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="unholy" />
+  <project path="system/core" name="system_core" remote="unholy" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="unholy" />
+  <project path="vendor/prebuilt" name="vendor_prebuilt" remote="unholy" />
+  <project path="vendor/unholy" name="vendor_unholy" remote="unholy" />
 
   <!-- AOSP Repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
