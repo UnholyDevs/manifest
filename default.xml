@@ -24,6 +24,11 @@
   <project path="frameworks/native" name="frameworks_native" remote="unholy" />
   <project path="frameworks/support" name="frameworks_support" remote="unholy" />  
   <project path="manifest" name="manifest" remote="unholy" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="unholy" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="unholy" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="unholy" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="unholy" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="unholy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" />
   <project path="packages/apps/UnholySettings" name="packages_apps_UnholySettings" remote="unholy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="unholy" />
@@ -31,6 +36,9 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="unholy" />
   <project path="vendor/prebuilt" name="vendor_prebuilt" remote="unholy" />
   <project path="vendor/unholy" name="vendor_unholy" remote="unholy" />
+
+  <!-- Substratum -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <!-- AOSP Repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -385,14 +393,10 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
@@ -408,7 +412,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -522,5 +525,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
+ 
 </manifest>
