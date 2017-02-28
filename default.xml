@@ -28,6 +28,7 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="unholy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="unholy" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="unholy" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="unholy" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="unholy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" />
   <project path="packages/apps/UnholySettings" name="packages_apps_UnholySettings" remote="unholy" />
