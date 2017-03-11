@@ -25,6 +25,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="unholy" />
   <project path="frameworks/support" name="frameworks_support" remote="unholy" />  
   <project path="manifest" name="manifest" remote="unholy" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="unholy" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="unholy" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="unholy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="unholy" />
@@ -388,7 +389,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
