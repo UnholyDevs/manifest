@@ -20,6 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/skia" name="external_skia" remote="unholy" />
+  <project path="external/DUtils" name="external_DUtils" remote="unholy" />
   <project path="frameworks/av" name="frameworks_av" remote="unholy" />
   <project path="frameworks/base" name="frameworks_base" remote="unholy" />
   <project path="frameworks/native" name="frameworks_native" remote="unholy" />
@@ -29,6 +30,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="unholy" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="unholy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="unholy" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="unholy" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="unholy" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="unholy" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="unholy" />
