@@ -7,7 +7,7 @@
   <remote  name="unholy"
            fetch="https://github.com/UnholyDevs"
            revision="n7" />
-  <default revision="refs/tags/android-7.1.1_r28"
+  <default revision="refs/tags/android-7.1.2_r5"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
