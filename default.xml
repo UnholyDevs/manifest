@@ -27,7 +27,8 @@
   <project path="frameworks/av" name="frameworks_av" remote="unholy" />
   <project path="frameworks/base" name="frameworks_base" remote="unholy" />
   <project path="frameworks/native" name="frameworks_native" remote="unholy" />
-  <project path="frameworks/support" name="frameworks_support" remote="unholy" />  
+  <project path="frameworks/support" name="frameworks_support" remote="unholy" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="unholy" />
   <project path="manifest" name="manifest" remote="unholy" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="unholy" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="unholy" />
@@ -367,7 +368,6 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
