@@ -1,0 +1,3 @@
+# UNHOLY #
+
+repo init -u https://github.com/UnholyDevs/manifest.git -b o8
