@@ -58,13 +58,14 @@
   <project path="device/google/contexthub" name="device_google_contexthub" remote="unholy" />
   <project path="device/google/marlin" name="device_google_marlin" remote="unholy" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="unholy" />
-  <!-- <project path="device/motorola/shamu" name="device_motorola_shamu" remote="unholy" /> -->
+  <project path="device/motorola/shamu" name="device_motorola_shamu" remote="unholy" />
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="unholy" />
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="unholy" />
-  <!-- <project path="kernel/motorola/shamu" name="kernel_motorola_shamu" remote="unholy" /> -->
+  <project path="kernel/motorola/shamu" name="kernel_motorola_shamu" remote="unholy" />
   <!-- <project path="vendor/google_devices" name="vendor_google_devices" remote="unholy" /> -->
   <project path="vendor/huawei" name="vendor_huawei" remote="unholy" />
-  <!-- <project path="vendor/motorola" name="vendor_motorola" remote="unholy" /> -->
+  <project path="vendor/motorola" name="vendor_motorola" remote="unholy" />
+  <project path="vendor/shamugapps" name="vendor_shamugapps" remote="unholy" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
