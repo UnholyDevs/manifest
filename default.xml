@@ -51,6 +51,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="unholy" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="unholy" />
   <project path="system/core" name="system_core" remote="unholy" />
+  <project path="system/media" name="system_media" remote="unholy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="unholy" />
   <project path="system/vold" name="system_vold" remote="unholy" />
   <project path="vendor/unholy" name="vendor_unholy" remote="unholy" />
@@ -528,7 +529,6 @@
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
