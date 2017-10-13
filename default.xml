@@ -50,6 +50,7 @@
   <project path="packages/apps/UnholySettings" name="packages_apps_UnholySettings" remote="unholy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="unholy" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="unholy" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="unholy" />
   <project path="system/core" name="system_core" remote="unholy" />
   <project path="system/media" name="system_media" remote="unholy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="unholy" />
@@ -477,7 +478,6 @@
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
