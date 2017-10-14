@@ -44,6 +44,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="unholy" />
   <!-- <project path="packages/apps/DUI" name="packages_apps_DUI" remote="unholy" /> -->
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="unholy" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="unholy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="unholy" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="unholy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" />
@@ -422,8 +423,6 @@
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
