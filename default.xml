@@ -47,26 +47,26 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="unholy" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="unholy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="unholy" />
-  <!-- <project path="packages/apps/UnholySettings" name="packages_apps_UnholySettings" remote="unholy" /> -->
+  <project path="packages/apps/UnholySettings" name="packages_apps_UnholySettings" remote="unholy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="unholy" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="unholy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="unholy" />
   <project path="system/core" name="system_core" remote="unholy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="unholy" />
-  <!-- <project path="vendor/unholy" name="vendor_unholy" remote="unholy" /> -->
+  <project path="vendor/unholy" name="vendor_unholy" remote="unholy" />
 
   <!-- Unholy Devices -->
-  <!-- <project path="device/google/contexthub" name="device_google_contexthub" remote="unholy" /> -->
-  <!-- <project path="device/google/marlin" name="device_google_marlin" remote="unholy" /> -->
+  <project path="device/google/contexthub" name="device_google_contexthub" remote="unholy" />
+  <project path="device/google/marlin" name="device_google_marlin" remote="unholy" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="unholy" />
   <!-- <project path="device/motorola/shamu" name="device_motorola_shamu" remote="unholy" /> -->
-  <!-- <project path="kernel/google/marlin" name="kernel_google_marlin" remote="unholy" /> -->
+  <project path="kernel/google/marlin" name="kernel_google_marlin" remote="unholy" />
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="unholy" />
   <!-- <project path="kernel/motorola/shamu" name="kernel_motorola_shamu" remote="unholy" /> -->
-  <!-- <project path="vendor/google_devices" name="vendor_google_devices" remote="unholy" />
+  <!-- <project path="vendor/google_devices" name="vendor_google_devices" remote="unholy" /> -->
   <project path="vendor/huawei" name="vendor_huawei" remote="unholy" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="unholy" />
-  <project path="vendor/shamugapps" name="vendor_shamugapps" remote="unholy" /> -->
+  <!-- <project path="vendor/motorola" name="vendor_motorola" remote="unholy" /> -->
+  <!-- <project path="vendor/shamugapps" name="vendor_shamugapps" remote="unholy" /> -->
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
