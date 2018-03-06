@@ -8,7 +8,7 @@
   <remote  name="unholy"
            fetch="https://github.com/UnholyDevs"
            revision="o81" />
-  <default revision="refs/tags/android-8.1.0_r13"
+  <default revision="refs/tags/android-8.1.0_r17"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
