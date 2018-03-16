@@ -43,6 +43,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="unholy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="unholy" />
   <!-- <project path="packages/apps/DUI" name="packages_apps_DUI" remote="unholy" /> -->
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="unholy" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="unholy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="unholy" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="unholy" />
