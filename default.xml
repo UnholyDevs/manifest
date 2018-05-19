@@ -40,6 +40,7 @@
   <project path="frameworks/support" name="frameworks_support" remote="unholy" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="unholy" />
   <project path="manifest" name="manifest" remote="unholy" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="unholy" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="unholy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="unholy" />
   <!-- <project path="packages/apps/DUI" name="packages_apps_DUI" remote="unholy" /> -->
@@ -429,7 +430,6 @@
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
